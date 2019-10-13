@@ -4,9 +4,9 @@
   "description": "Swagger editor electron version",
   "main": "main.js",
   "scripts": {
-    "start": "npm run copySwaggerUI && electron .",
-    "package": "electron-packager . swagger-editor-electron",
     "copySwaggerUI": "copyfiles -f --all node_modules/swagger-editor-dist/* dist",
+    "start": "npm run copySwaggerUI && electron .",
+    "package": "npm run copySwaggerUI && electron-packager . swagger-editor-electron",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yassinefarich@gmail.com",
