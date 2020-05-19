@@ -17,5 +17,7 @@
     "electron-packager": "^14.0.6",
     "swagger-editor-dist": "^3.6.37"
   },
-  "dependencies": {}
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  }
 }
